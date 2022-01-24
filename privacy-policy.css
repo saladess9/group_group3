@@ -1,0 +1,721 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    color: black;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+   
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 108vh;
+    background-color: #ede0d4;
+}
+
+.header .content{
+    padding: 65px;
+    padding-top: 120px;
+    background-color: #ede0d4;
+}
+ 
+.header .navbar{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    background-color: white;
+    padding-top: 40px;
+    z-index: 7;
+
+}
+
+.header .navbar .logo img{
+    float: left;
+    width: 70px;
+    height:auto;
+    margin-left: 50px;
+    margin-right: 130px;
+}
+
+.header .navbar .menu ul li{
+    position: relative;
+    background: white;
+    width: 140px;
+    height: 45px;
+    top: -13px;
+    line-height: 45px;
+    text-align: center;
+    float: left;
+    font-size: 12px;
+    transition: 0.6s ease;
+    text-decoration: none;
+    padding: 5px auto;
+}
+
+.header .contact-info{
+    margin-left: 87px;
+    font-size: 12px;
+    
+}
+
+.header .contact-info ul li{  
+    position: relative;
+    background: white;
+    width: 140px;
+    height: 45px;
+    top: -13px;
+    line-height: 45px;
+    text-align: center;
+    float: left;  
+    color: black;
+    text-decoration: none;
+}
+
+.header .contact-info ul li:hover{
+    background:rgb(255, 205, 255);  
+}
+
+.header .navbar .menu ul li:hover{
+    background: rgb(255, 205, 255);  
+    
+}
+
+.menu a{
+    color: #000;
+}
+
+.menu ul ul{
+    display: none;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+}
+
+.head h1{
+    font-family: "Montserrat";
+    font-size: 2pc;
+    font-style: normal;
+    margin-left: 5cm;
+}
+
+.head p{
+    font-family:"Montserrat";
+    font-size: 0.6pc;
+    font-style: normal;
+    margin-left: 5cm;
+}
+
+.sub-head p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: normal;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+    margin-top: 1cm;
+}
+
+.box1 h1{
+    font-family: "Montserrat";
+    font-size: 1.3pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box1 h2{
+    font-family: "Montserrat";
+    font-size: 1.1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box1 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: normal;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box1 ul li p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: normal;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box2 h1{
+    font-family: "Montserrat";
+    font-size: 1.3pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box2 h2{
+    font-family: "Montserrat";
+    font-size: 1.1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box2 h3{
+    font-family: "Montserrat";
+    font-size: 1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box2 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: normal;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm; 
+}
+
+.box2 ul li p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: normal;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box3 h3{
+    font-family: "Montserrat";
+    font-size: 1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box3 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box4 h3{
+    font-family: "Montserrat";
+    font-size: 1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box4 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+
+.box4 ul li{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box5 h2{
+    font-family: "Montserrat";
+    font-size: 1.1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box5 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box6 h3{
+    font-family: "Montserrat";
+    font-size: 1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box6 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box7 h3{
+    font-family: "Montserrat";
+    font-size: 1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box7 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box7 ul li{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-top: 0.2cm;
+    margin-left: 5cm;
+}
+
+.sub-box7 {
+    padding-top: 10px;
+}
+
+.sub-box7 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box7 .sub-box7 ul li{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-top: 0.5cm;
+    margin-left: 5cm;
+}
+
+.box8 h2{
+    font-family: "Montserrat";
+    font-size: 1.1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box8 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.sub-box8 ul li {
+    margin-top: 0.5cm;
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.sub-box8 p{
+    margin-top: 0.6cm;
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box9 h2{
+    font-family: "Montserrat";
+    font-size: 1.1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box9 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box10 h2{
+    font-family: "Montserrat";
+    font-size: 1.1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box10 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box11 h2{
+    font-family: "Montserrat";
+    font-size: 1.1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box11 h3{
+    font-family: "Montserrat";
+    font-size: 1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box11 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box12 h3{
+    font-family: "Montserrat";
+    font-size: 1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box12 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box13 h3{
+    font-family: "Montserrat";
+    font-size: 1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm; 
+}
+
+.box13 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left:5cm;
+}
+
+.box13 ul li{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.box14 h2{
+    font-family: "Montserrat";
+    font-size: 1.1pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box14 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left:5cm;
+}
+
+.box15 h1{
+    font-family: "Montserrat";
+    font-size: 1.3pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box15 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left:5cm;
+}
+
+.box16 h1{
+    font-family: "Montserrat";
+    font-size: 1.3pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box16 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left:5cm;
+}
+
+.box17 h1{
+    font-family: "Montserrat";
+    font-size: 1.3pc;
+    font-style: normal;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+}
+
+.box17 p{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left:5cm;
+}
+
+.box17 ul li{
+    font-family:"Montserrat";
+    font-size: 0.8pc;
+    font-style: inherit;
+    text-align: justify;
+    margin-right: 5cm;
+    margin-left:5cm;
+}
+
+/*---------------footer----------------*/
+.footer{
+    background: white;
+    font-size: 14px;
+    padding: 60px o 20px;
+}
+
+.footer h3{
+    margin-bottom: 20px;
+    color: darkslategrey;    
+    font-size: 15px;
+}
+
+.footer-col-1{
+    min-width: 380px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 15%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer hr{
+    border: none;
+    background: darkslategrey;
+    height: 1px;
+    margin-top: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.footer p{
+    font-size: 15px;
+}
+
+.page3 .header{
+    position: relative;
+    width: 100%;
+    height: 170vh;
+    background-color: rgb(230, 217, 233);
+}
+
+/*---------------footer----------------*/
+.footer{
+    background: white;
+    font-size: 14px;
+    padding: 60px o 20px;
+}
+
+.column{
+    display: flex;
+    flex-basis: inherit;
+    margin-left: 2.5cm;
+}
+
+.footer h3{
+    margin-bottom: 20px;
+    color: darkslategrey;    
+    font-size: 15px;
+}
+
+ .footer-col-1{
+    min-width: 380px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 15%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+ ul{
+    list-style: none;
+}
+
+.footer hr{
+    border: none;
+    background: darkslategrey;
+    height: 1px;
+    margin-top: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.footer p{
+    font-size: 15px;
+}
+
+.page3 .header{
+    position: relative;
+    width: 100%;
+    height: 170vh;
+    background-color: rgb(230, 217, 233);
+}
+
+.footer-bot{
+    padding: 70px;
+  }
+  
+  .footer-bot .col-sm-4  a{
+    color: #000;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-color: #000;
+    text-decoration: none;
+  }
+  
+  .footer-bot .col-sm-4 a:hover{
+    background: rgb(230, 220, 220);
+    color: #fff;
+    border-color: rgb(230, 220, 220);
+  }
+  
+  .footer-bot .col-sm-4 input{
+    padding: 7px;
+  }
+  
+  .footer-bot .col-sm-3:nth-child(3) a{
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 1.9;
+  }
+  
+  .footer-bot .col-sm-3:nth-child(3) a:hover{
+    color: rgb(230, 220, 220);
+  }
+  
+  .footer-bot h4{
+    text-transform: uppercase;
+  }
+  
+  .footer-bot .col-sm-3:nth-child(4) li{
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .copyright{
+    font-size: 14px;
+  }
+
+.header .navbar{
+    position: fixed;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+

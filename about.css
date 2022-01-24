@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    color: black;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+   
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    background-color: #e6ccb2;
+}
+ 
+.header .navbar{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    background-color: white;
+    padding-top: 40px;
+    z-index: 7;
+
+}
+
+.header .navbar .logo img{
+    float: left;
+    width: 70px;
+    height:auto;
+    margin-left: 50px;
+    margin-right: 130px;
+}
+
+.header .navbar{
+    position: fixed;
+}
+
+.header .navbar .menu ul li{
+    position: relative;
+    background: white;
+    width: 140px;
+    height: 45px;
+    top: -13px;
+    line-height: 45px;
+    text-align: center;
+    float: left;
+    font-size: 12px;
+    transition: 0.6s ease;
+    text-decoration: none;
+    padding: 5px auto;
+}
+
+.header .contact-info{
+    margin-left: 87px;
+    font-size: 12px;
+    
+}
+
+.header .contact-info ul li{  
+    position: relative;
+    background: white;
+    width: 140px;
+    height: 45px;
+    top: -13px;
+    line-height: 45px;
+    text-align: center;
+    float: left;  
+    color: black;
+    text-decoration: none;
+}
+
+.header .contact-info ul li:hover{
+    background:rgb(255, 205, 255);  
+}
+
+.header .navbar .menu ul li:hover{
+    background: rgb(255, 205, 255);  
+    
+}
+
+.menu a{
+    color: #000;
+}
+
+.menu ul ul{
+    display: none;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+}
+
+.images{
+    width: 16cm;
+    height: 18cm;
+}
+
+.content{
+    display: inline-block;
+    background-color: rgb(230, 217, 233);
+    background-size: cover;
+    margin-top: 2cm;
+}
+
+.content .content1{
+    margin-top: 0.2cm;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content h1{
+    position: absolute;
+    font-family: "Montserrat";
+    font-style: inherit;
+    font-size: 2pc;
+    margin-left: 18cm;
+    margin-top: 1cm;
+}
+
+.content1 h3{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit;
+    font-size: 1.5pc;
+    margin-left: 18.5cm;
+    margin-top: 6cm;
+}
+
+.content1 p{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: justify;
+    font-size: 1pc;
+    margin-left: 18.5cm;
+    margin-right: 1cm;
+    margin-top: 7cm;
+    float: right;
+}
+
+.content1 .images{
+    padding: 10px;
+    margin-top: 0.2cm;
+    margin-left: 1cm;
+    float: top;
+    align-content: space-around;
+}
+
+.content .content2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content2 h3{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit;
+    font-size: 1.5pc;
+    margin-right: 18.5cm;
+    margin-left: 2cm;
+    margin-top: 6cm;
+}
+
+.content2 p{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: justify;
+    font-size: 1pc;
+    margin-right: 18.5cm;
+    margin-left: 2cm;
+    margin-top: 7cm;
+    float: left;
+}
+
+.content2 .images{
+    margin-top: 0.2cm;
+    margin-bottom: 0.1cm;
+    margin-left: 18.7cm;
+    margin-right: 1cm;
+    float: right;
+    align-content: space-around;
+}
+
+/*---------------footer----------------*/
+.footer{
+    background: white;
+    font-size: 14px;
+    padding: 60px o 20px;
+}
+
+.column{
+    display: flex;
+    flex-basis: inherit;
+    margin-left: 2.5cm;
+}
+
+.footer h3{
+    margin-bottom: 20px;
+    color: darkslategrey;    
+    font-size: 15px;
+}
+
+ .footer-col-1{
+    min-width: 380px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 15%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+ ul{
+    list-style: none;
+}
+
+.footer hr{
+    border: none;
+    background: darkslategrey;
+    height: 1px;
+    margin-top: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.footer p{
+    font-size: 15px;
+}
+
+.page3 .header{
+    position: relative;
+    width: 100%;
+    height: 170vh;
+    background-color: rgb(230, 217, 233);
+}
+
+.footer-bot{
+    padding: 70px;
+  }
+  
+  .footer-bot .col-sm-4  a{
+    color: #000;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-color: #000;
+    text-decoration: none;
+  }
+  
+  .footer-bot .col-sm-4 a:hover{
+    background: rgb(230, 220, 220);
+    color: #fff;
+    border-color: rgb(230, 220, 220);
+  }
+  
+  .footer-bot .col-sm-4 input{
+    padding: 7px;
+  }
+  
+  .footer-bot .col-sm-3:nth-child(3) a{
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 1.9;
+  }
+  
+  .footer-bot .col-sm-3:nth-child(3) a:hover{
+    color: rgb(230, 220, 220);
+  }
+  
+  .footer-bot h4{
+    text-transform: uppercase;
+  }
+  
+  .footer-bot .col-sm-3:nth-child(4) li{
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .copyright{
+    font-size: 14px;
+}
+  
+
+h1{
+    padding-top: 120px;
+    text-align: center;
+}
+
+.abt-us-con .col-sm-6 img:first-child{
+  margin-left: 130px;  
+    display: block;
+}
+
+.abt-us-con .col-sm-6{
+    padding-top: 30px;
+}
+
+.abt-us-con .col-sm-6 h3{
+    display: block;
+    margin-top: 70px;
+    }
+    
+.abt-us-con .col-sm-6 p{
+    line-height: 1.7;
+    max-width: 700px;
+}
+
+.abt-us-con .col-sm-6 .sec-text{
+    margin-left: 70px;
+}
+
+.abt-us-con{
+    padding-bottom: 40px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+
+
